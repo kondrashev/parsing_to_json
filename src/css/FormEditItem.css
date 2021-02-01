@@ -1,0 +1,43 @@
+.editForm{
+    width: 400px;
+    height: 160px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    position: fixed;
+    top: 300px;
+    left: 450px;
+    background-color: blue;
+    border: 2px solid #ffffff;
+}
+.editForm .inp-1{
+    margin-top: 50px;
+    margin-left: 47px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.editForm h{
+    font-size: 25px;
+    position: relative;
+    width:200px;
+    height:20px;
+    top: 20px;
+    left: 110px;
+    color: #ffffff;
+}
+.editForm .btn-1{
+    width: 48px;
+    height: 23px;
+    position: fixed;
+    left: 802px;
+    background-image: url(../image/sprite.png);
+    background-position: -383px -181px;
+}
+.editForm input:hover{
+    box-shadow: 0 0 10px black;
+}
+.editForm .btn-1:hover{
+    box-shadow: 0 0 10px black;
+}
